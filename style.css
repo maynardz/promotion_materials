@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    text-align: center;
+    background-color: #e3e3e3;
+    overflow-x: hidden;
+}
+
+#intro {
+    height: 100vh;
+    width: 100vw;
+    font-family: kiona;
+    background-color: #3e3e3e;
+    color:  #f1f1f1;
+}
+
+#intro h1 {
+    font-size: 5em;
+}
+
+#intro .text {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+@font-face {
+    font-family: kiona;
+    src: url(./assets/Kiona-Regular.ttf);
+}
+
+#technical {
+    height: 50vh;
+    width: 100vw;
+    font-family: kiona;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+#technical .text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a img {
+    height: 300px;
+    width: auto
+}
+
+ul {
+    padding-top: 1em;
+}
+
+.card {
+    background-color: #3e3e3e;
+    color: #f1f1f1
+}
