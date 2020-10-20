@@ -62,3 +62,12 @@ ul {
     background-color: #3e3e3e;
     color: #f1f1f1
 }
+
+.nav {
+    background-color: #3e3e3e;
+    color: #f1f1f1;
+}
+
+.nav-item {
+    padding-bottom: 12px;
+}
